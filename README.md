@@ -107,7 +107,7 @@ After configuring the paths and GPU settings, make the script executable and run
 
 ```bash
 chmod +x submit_jobs.sh
-bash submit_jobs.sh
+bash submit_jobs.sh```
 
 #### Notes
 
