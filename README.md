@@ -82,6 +82,41 @@ This script will:
 * Save all generated inputs to the directory specified by `--out`
 ---
 
+### Step 3: Run Phonon Calculations with Multi-GPU Parallelization
+
+PhononBench provides a multi-GPU parallel execution script (`submit_jobs.sh`) to efficiently perform large-scale phonon calculations using **MatterSim**, depending on the available GPU resources.
+
+Users should modify the script according to their **GPU configuration** and **directory structure**.
+
+---
+
+#### Key Arguments
+
+The following paths must be set according to your local setup:
+
+* `--ref`
+  Directory containing the Phonopy input files (`.yaml.bz2`) generated in **Step 2**.
+
+* `--dest`
+  Output directory for phonon calculation results.
+
+* `--relaxedDest`
+  Directory for saving **relaxed crystal structures** obtained during phonon calculations.
+
+After configuring the paths and GPU settings, make the script executable and run it with:
+
+```bash
+chmod +x submit_jobs.sh
+bash submit_jobs.sh
+
+#### Notes
+
+* The number of GPUs is controlled by `phys_gpus` and `logic_gpus`.
+* Each GPU is further divided into multiple sub-jobs via `subparts_per_gpu` to improve utilization.
+* The script distributes phonon calculations evenly across GPUs based on `gpu_index` and `subpart_index`.
+* Log files are written separately for each GPU and sub-job to facilitate monitoring and debugging.
+
+---
 
 
 ## Citation
