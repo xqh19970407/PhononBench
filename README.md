@@ -83,7 +83,34 @@ This script will:
 * Save all generated inputs to the directory specified by `--out`
 ---
 
+
+
+
 ### Step 3: Run Phonon Calculations with Multi-GPU Parallelization
+
+After preparing the Phonopy input files, an additional utility repository is required
+to run large-scale phonon calculations.
+
+First, clone the required repository:
+
+```bash
+git clone https://github.com/hyllios/utils.git
+````
+
+Then, copy the two phonon calculation scripts provided by PhononBench into the
+`benchmark_ph` directory of the cloned repository:
+
+* `phonon_multi_gpu_run.py`
+* `submit_jobs.sh`
+
+Place both scripts under the following path:
+
+```
+utils/benchmark_ph/
+```
+
+After completing these steps, you can proceed with the multi-GPU phonon calculations
+as described in the next section.
 
 PhononBench provides a multi-GPU parallel execution script (`submit_jobs.sh`) to efficiently perform large-scale phonon calculations using **MatterSim**, depending on the available GPU resources.
 
