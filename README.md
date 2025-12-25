@@ -1,6 +1,24 @@
 # PhononBench
-![PhononBench Overview](./fig-main.png)
+<p align="center">
+  <img src="./fig-main.png" alt="PhononBench Overview" width="500">
+</p>
 PhononBench is a phonon-based benchmark for large-scale dynamical stability evaluation of AI-generated crystals, featuring 100k+ structures, DFT-level MatterSim phonon calculations, and open-source high-throughput workflows.
+
+### Summary of Crystal Generation and Dynamical Stability Statistics
+
+| Model                  | Relaxed | Dynamically Stable | Input Script Success | Unique CIFs | Total Generated |
+|------------------------|---------:|-------------------:|---------------------:|------------:|----------------:|
+| CrystalFlow-MP20       | 8,533    | 1,428              | 8,852                | 9,952       | 16,000          |
+| CrystalFormer-Alex20   | 8,642    | 2,969              | 8,807                | 8,986       | 40,000          |
+| CrystalFormer-MP20     | 4,408    | 510                | 4,990                | 5,143       | 20,000          |
+| CrystaLLM-MP20         | 1,951    | 58                 | 2,074                | 2,074       | 16,000          |
+| DiffCSP-MP20           | 9,163    | 2,488              | 9,959                | 10,000      | 16,000          |
+| InvDesFlow-AL-MP20     | 8,000    | 2,176              | –                    | –           | –               |
+| InvDesFlow-AL-Alex20   | 22,755   | 8,743              | 24,997               | 25,000      | 30,000          |
+| MatterGen-Alex20       | 10,902   | 4,469              | 11,829               | 11,829      | 16,000          |
+| MatterGen-MP20         | 9,279    | 2,278              | 10,000               | 10,000      | 16,000          |
+
+> **Note:** The corresponding benchmark data are currently being uploaded and will be made publicly available soon. A download link will be added here once the upload is complete.
 
 ## Installation
 
