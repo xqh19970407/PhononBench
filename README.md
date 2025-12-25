@@ -18,7 +18,7 @@ PhononBench is a phonon-based benchmark for large-scale dynamical stability eval
 | MatterGen-Alex20       | 10,902   | 4,469              | 11,829               | 11,829      | 16,000          |
 | MatterGen-MP20         | 9,279    | 2,278              | 10,000               | 10,000      | 16,000          |
 
-> **Note:** The corresponding benchmark data are currently being uploaded and will be made publicly available soon. A download link will be added here once the upload is complete.
+> **Note:** The corresponding benchmark data are currently being uploaded and will be made publicly available soon. A download link will be added here once the upload is complete. In the evaluation of crystal generative models, the dynamical stability rate generally converges when phonon calculations are performed for around 4,000 materials. In this study, all tested models—except for the large language model CrystaLLM—exceed this sample size. The specific reasons are discussed in detail in the paper.
 
 ## Installation
 
