@@ -104,10 +104,10 @@ The following paths must be set according to your local setup:
   Directory for saving **relaxed crystal structures** obtained during phonon calculations.
 
 After configuring the paths and GPU settings, make the script executable and run it with:
-
 ```bash
 chmod +x submit_jobs.sh
-bash submit_jobs.sh```
+bash submit_jobs.sh
+```
 
 #### Notes
 
