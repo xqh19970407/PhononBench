@@ -171,12 +171,12 @@ If you use **PhononBench** in your research, please cite the following paper:
 
 ```bibtex
 @misc{han2025phononbenchalargescalephononbasedbenchmark,
-  title        = {PhononBench: A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation},
-  author       = {Xiao-Qi Han and Ze-Feng Gao and Peng-Jie Guo and Zhong-Yi Lu},
-  year         = {2025},
-  eprint       = {2512.21227},
-  archivePrefix= {arXiv},
-  primaryClass = {cond-mat.mtrl-sci},
-  url          = {https://arxiv.org/abs/2512.21227}
+      title={PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation}, 
+      author={Xiao-Qi Han and Peng-Jie Guo and Ze-Feng Gao and Zhong-Yi Lu},
+      year={2025},
+      eprint={2512.21227},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.mtrl-sci},
+      url={https://arxiv.org/abs/2512.21227}, 
 }
 ```
