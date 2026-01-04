@@ -20,6 +20,12 @@ PhononBench is a phonon-based benchmark for large-scale dynamical stability eval
 
 > **Note:** The corresponding benchmark data are currently being uploaded and will be made publicly available soon. A download link will be added here once the upload is complete. In the evaluation of crystal generative models, the dynamical stability rate generally converges when phonon calculations are performed for around 4,000 materials. In this study, all tested models—except for the large language model CrystaLLM—exceed this sample size. The specific reasons are discussed in detail in the paper.
 
+## API for DFT-Oriented Phonon Calculations
+To facilitate usage by DFT experts, we develop an API that allows users to upload individual materials and perform phonon calculations in an automated manner.
+<p align="center">
+  <img src="./API-PhononBench.png" alt="API PhononBench" width="500">
+</p>
+
 ## Installation
 
 PhononBench relies on **MatterSim** for DFT-level phonon calculations.
