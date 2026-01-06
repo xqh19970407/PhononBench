@@ -36,7 +36,7 @@ from umlip import umlip
 
 
 # ============================================================
-# CIF → phonopy.yaml.bz2（原封不动）
+# CIF → phonopy.yaml.bz2
 # ============================================================
 def ase_to_phonopy(atoms):
     return PhonopyAtoms(
@@ -73,7 +73,7 @@ def generate_phonopy_yaml(cif_file, dim, out_dir):
 
 
 # ============================================================
-# phonopy + MLIP 计算（完全不改）
+# phonopy + MLIP 计算
 # ============================================================
 def run_phonopy(ph_ref, mlip, distance=0.01, relax=True):
     ase_cell = Atoms(
@@ -132,7 +132,7 @@ def run_phonopy(ph_ref, mlip, distance=0.01, relax=True):
 
 
 # ============================================================
-# 声子谱计算 + 画图（一行未动）
+# 声子谱计算 + 画图
 # ============================================================
 def calculate_and_plot_band_structure(ph, structure_name, output_dir):
     Path(output_dir).mkdir(parents=True, exist_ok=True)
