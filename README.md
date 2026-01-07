@@ -22,7 +22,8 @@ PhononBench is a phonon-based benchmark for large-scale dynamical stability eval
 
 ## 🌐 API for DFT-Oriented Phonon Calculations
 We provide a public web service **PhononBench** for rapid phonon evaluation powered by AI-based phonon models.
-🔗 **Web interface:** https://phononbench.cn  
+🔗 **Web interface:** https://phononbench.cn (The service is temporarily available at http://49.232.195.23:8000
+ while the official domain is under registration.)
 <p align="center">
   <img src="./API-PhononBench.png" alt="API PhononBench" width="500">
 </p>
