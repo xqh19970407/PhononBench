@@ -149,10 +149,6 @@ PhononBench provides a multi-GPU parallel execution script (`submit_jobs.sh`) to
 Users should modify the script according to their **GPU configuration** and **directory structure**.
 
 ---
-### Step 4: 
-The script **`summarize_relaxation_and_stability.py`** automatically scans all model directories in PhononBench and summarizes relaxation success and phonon-based dynamical stability statistics for each crystal generative model.
-
-
 #### Key Arguments
 
 The following paths must be set according to your local setup:
@@ -180,6 +176,8 @@ bash submit_jobs.sh
 * Log files are written separately for each GPU and sub-job to facilitate monitoring and debugging.
 
 ---
+### Step 4: 
+The script **`summarize_relaxation_and_stability.py`** automatically scans all model directories in PhononBench and summarizes relaxation success and phonon-based dynamical stability statistics for each crystal generative model.
 
 
 ## Citation
