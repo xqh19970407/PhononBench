@@ -176,9 +176,9 @@ bash submit_jobs.sh
 * Log files are written separately for each GPU and sub-job to facilitate monitoring and debugging.
 
 ---
-### Step 4: 
+### Step 4: Summarize Relaxation and Dynamical Stability Statistics
 The script **`summarize_relaxation_and_stability.py`** automatically scans all model directories in PhononBench and summarizes relaxation success and phonon-based dynamical stability statistics for each crystal generative model.
-
+---
 
 ## Citation
 
