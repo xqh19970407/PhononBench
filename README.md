@@ -31,7 +31,7 @@ https://zenodo.org/records/18185662
 
 ## 🌐 API for DFT-Oriented Phonon Calculations
 We provide a public web service **PhononBench** for rapid phonon evaluation powered by AI-based phonon models.
-🔗 **Web interface:** https://phononbench.cn (The service is temporarily available at http://49.232.195.23:8000
+🔗 **Web interface:** http://phononbench.cn (The service is temporarily available at http://49.232.195.23:8000
  while the official domain is under registration.)
 <p align="center">
   <img src="./API-PhononBench.png" alt="API PhononBench" width="500">
