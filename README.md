@@ -35,6 +35,7 @@ We provide a public web service **PhononBench** for rapid phonon evaluation powe
 <p align="center">
   <img src="./API-PhononBench.png" alt="API PhononBench" width="500">
 </p>
+Since its public release on January 8, 2026, the PhononBench API has been used by researchers from a broad range of academic and industrial institutions. This usage highlights the relevance of PhononBench as a practical tool for phonon-based dynamical stability assessment.
 
 ## Installation
 
