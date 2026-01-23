@@ -29,6 +29,9 @@ Each `relaxed` directory contains a `Label.txt` file indicating whether each str
 The complete dataset is available at:
 https://zenodo.org/records/18185662
 
+### Note
+Fully relaxing all generated structures and performing complete phonon calculations, as reported in the paper, can be very time-consuming. To facilitate quick evaluation, we provide the script `summarize_relaxation_and_stability.py`, which can be used to directly summarize the stability rates of different generative models by simply updating the data paths to the datasets downloaded from Zenodo. The detailed high-throughput workflow described below can also be used for screening purposes and is open for advanced users; however, due to its technical complexity, we recommend using our provided API for most applications.
+
 ## 🌐 API for DFT-Oriented Phonon Calculations
 We provide a public web service **PhononBench** for rapid phonon evaluation powered by AI-based phonon models.
 🔗 **Web interface:** http://phononbench.cn (If you encounter temporary downtime or inaccessibility during the review process, please feel free to contact us via the anonymous correspondence channel provided in the submission system. The service may occasionally be unavailable due to peak usage.)
