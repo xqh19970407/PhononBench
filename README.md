@@ -1,4 +1,4 @@
-# PhononBench
+# PhononBench (API:http://phononbench.cn)
 <p align="center">
   <img src="./fig-main.png" alt="PhononBench Overview" width="500">
 </p>
