@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+*.so
+vendor/MatterSim/build/
+vendor/MatterSim/src/mattersim/datasets/utils/threebody_indices.c
+results/
+.job.lock

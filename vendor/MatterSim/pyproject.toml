@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel", "Cython", "numpy==1.26.4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mattersim"
+version = "0.0"
+description = "PhononBench inference snapshot of MatterSim"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["ase", "numpy<2", "torch", "torch-geometric", "torch-runstats", "torch-ema", "torchmetrics", "pymatgen", "scipy", "loguru", "deprecated", "requests"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mattersim", "mattersim.*"]
+namespaces = true

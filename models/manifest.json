@@ -1,0 +1,8 @@
+{
+  "model": "mattersim-v1.0.0-5M.pth",
+  "bytes": 91176875,
+  "sha256": "e3df9fa708725e3d453140646c7d1838324b347a3d1214cf1440522146f872b5",
+  "license": "MIT; see vendor/MatterSim/LICENSE.txt",
+  "source": "https://github.com/microsoft/mattersim",
+  "purpose": "The 5M checkpoint used by the current website"
+}

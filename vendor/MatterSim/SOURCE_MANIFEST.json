@@ -1,0 +1,28 @@
+{
+  "snapshot": "2026-11-09",
+  "files": {
+    "src/mattersim/__init__.py": "77a07e3f77cfef836fbead02c01e71f77ef42bea6ea5c01d0e94b2543bbb8c8c",
+    "src/mattersim/__version__.py": "80934c9d98da169738f487152e8afbf141f87db6ce817b467c3a699bfc4d1e67",
+    "src/mattersim/datasets/utils/build.py": "bb0775c1efb109059e19580c3ec95dd1dfb69689f69f3462eb66961e9232d479",
+    "src/mattersim/datasets/utils/convertor.py": "168a1a04eab76382816fc31b92acbfe931a019a9cf6bf5b4a77d9c8c43e2bf62",
+    "src/mattersim/datasets/utils/regressor.py": "3f0161430b7024d23814f0003e1b403f0d4974a63d8022c523bcfaebbd6525f5",
+    "src/mattersim/datasets/utils/threebody_indices.pyx": "f0e8f048b46ff26b4e7206419953746872b4811c02bb3d885b815128a23c767e",
+    "src/mattersim/forcefield/__init__.py": "3e2041753a8065c3d3596fb9e2616a09db450b04c605147b62ebf40c84025091",
+    "src/mattersim/forcefield/m3gnet/m3gnet.py": "bca90c16502fcef2a25e1666eb7633ab459ee0d9ef5a1987edc097c71f09557f",
+    "src/mattersim/forcefield/m3gnet/modules/__init__.py": "aa62d485602c8aa17dd7d674d1aef32fecb5901791d138c5235212ace510bc48",
+    "src/mattersim/forcefield/m3gnet/modules/angle_encoding.py": "4611cdce116990088d3200b965ce0113856382915488d7e4f53b59cbca81f6b4",
+    "src/mattersim/forcefield/m3gnet/modules/edge_encoding.py": "c3852b6ac49f4a72db53b5a3afb654785a131a92cd8e08458168373ee4a9ca6c",
+    "src/mattersim/forcefield/m3gnet/modules/layers.py": "2d3e9afe087b9e2a57e373ff5b5706eaae09ebb0b1d332b7f071072eac098d9c",
+    "src/mattersim/forcefield/m3gnet/modules/message_passing.py": "035a0cb7e87369772c390394909eace8d54a4d6f81136b9569b4b89f02400ae2",
+    "src/mattersim/forcefield/m3gnet/scaling.py": "8b88a96cbb1211c3db003139451d35bcb7e77ca9a4d56115231934a961467c38",
+    "src/mattersim/forcefield/potential.py": "fb4796e5be40d9ca9a4f90876edebdf1808215d56c76bee42f2cce837dd662f5",
+    "src/mattersim/jit_compile_tools/jit.py": "d56165fe0920153653a22679885506300c8ef21c050aaffce9f206956fd5ee85",
+    "src/mattersim/utils/download_utils.py": "0b4446b5e08f7b9f7f9378ce8c0ca4e142373d48404b77dbb5d083e9c54b651b",
+    "src/mattersim/utils/logger_utils.py": "c3341c72f183f92fbe00c63f1c0e194fc0bd43ed11620e4bb5d81aea7eda1e7f"
+  },
+  "packaging_changes": [
+    "pyproject.toml limits dependencies to the inference runtime and pins the existing local package version 0.0",
+    "Original packaging configuration retained as pyproject.upstream.toml"
+  ],
+  "python_source_modified": false
+}

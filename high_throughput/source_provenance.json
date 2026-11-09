@@ -1,0 +1,18 @@
+{
+  "snapshot_date": "2026-11-09",
+  "website_files": {
+    "phonon_service/main.py": "c30fc97d6946d171a9d79014000ecdd932c8da4acca30305a6f7e64796f14dd6",
+    "Phono-main/benchmark_ph/api-cif2phonon.py": "ee14fa4026d9c0d160a4041a5a8636787ed525a3205aa10543886603ebcf27e4",
+    "Phono-main/benchmark_ph/umlip.py": "b8d39cfa6912e6f083ea7e641edbe8d37463dba8e7976c59b43405a1eea9e82a",
+    "Phono-main/benchmark_ph/umlip_defs.json": "10c1add12b92a958476a4b7664c6c3a77da2b020db32d2fb1daa7b2d8c7832bf"
+  },
+  "inference_vendor_files": 18,
+  "model": {
+    "model": "mattersim-v1.0.0-5M.pth",
+    "bytes": 91176875,
+    "sha256": "e3df9fa708725e3d453140646c7d1838324b347a3d1214cf1440522146f872b5",
+    "license": "MIT; see vendor/MatterSim/LICENSE.txt",
+    "source": "https://github.com/microsoft/mattersim",
+    "purpose": "The 5M checkpoint used by the current website"
+  }
+}

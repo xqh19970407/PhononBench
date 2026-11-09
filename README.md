@@ -1,4 +1,17 @@
 # PhononBench (API:http://phononbench.cn)
+
+## New: portable high-throughput workflows (2026-11-09)
+
+The current website calculation options are now available as standalone workflows: **3D / 2D, no relaxation, fixed-cell (NVT), variable-cell / pressure (NPT), symmetry controls, bounded CPU/multi-GPU batches, checkpoints and a 20-minute deadline per material**. The original paper-reproduction scripts below are retained.
+
+- [User guide (中文)](high_throughput/README_CN.md) · [Quick start (English)](high_throughput/README.md)
+- [Complete code + model ZIP](https://media.githubusercontent.com/media/xqh19970407/PhononBench/main/distributions/PhononBench_high_throughput_20261109.zip) · [SHA-256](distributions/PhononBench_high_throughput_20261109.zip.sha256)
+- [Environment TXT exports](environment/) · [Validation](high_throughput/VALIDATION_CN.md)
+
+The ZIP includes the website's MatterSim **5M checkpoint**, inference source and supporting Linux/Python 3.10 wheels. Models and ZIP assets use Git LFS when cloning. The 2D default preserves the vacuum direction; an explicit web cell policy is available for reproducing the current website convention. See the guide for pressure definitions and sampling details.
+
+---
+
 <p align="center">
   <img src="./fig-main.png" alt="PhononBench Overview" width="500">
 </p>

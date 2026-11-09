@@ -1,0 +1,71 @@
+{
+  "common_args": [
+    "--mesh",
+    "8",
+    "8",
+    "8",
+    "--npoints",
+    "31"
+  ],
+  "jobs": [
+    {
+      "id": "Si_0GPa",
+      "cif": "Si.cif",
+      "args": [
+        "--dimension",
+        "3d",
+        "--relax-type",
+        "npt",
+        "--pressure",
+        "0"
+      ]
+    },
+    {
+      "id": "Si_2GPa",
+      "cif": "Si.cif",
+      "args": [
+        "--dimension",
+        "3d",
+        "--relax-type",
+        "npt",
+        "--pressure",
+        "2"
+      ]
+    },
+    {
+      "id": "graphene_nvt",
+      "cif": "graphene.cif",
+      "args": [
+        "--dimension",
+        "2d",
+        "--relax-type",
+        "nvt",
+        "--no-fix-symmetry"
+      ]
+    },
+    {
+      "id": "graphene_slab_npt",
+      "cif": "graphene.cif",
+      "args": [
+        "--dimension",
+        "2d",
+        "--relax-type",
+        "npt",
+        "--cell-policy",
+        "slab"
+      ]
+    },
+    {
+      "id": "Si_no_relax_P1",
+      "cif": "Si.cif",
+      "args": [
+        "--dimension",
+        "3d",
+        "--relax-type",
+        "none",
+        "--no-fix-symmetry",
+        "--no-use-symmetry"
+      ]
+    }
+  ]
+}

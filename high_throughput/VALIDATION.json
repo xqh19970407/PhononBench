@@ -1,0 +1,135 @@
+{
+  "phonopy_version": "2.47.1",
+  "stock_phonopy_without_2d_patch": true,
+  "vendored_mattersim_import": true,
+  "cases": {
+    "Si_0GPa": {
+      "state": "DONE",
+      "seconds": 11.61,
+      "dimension": "3d",
+      "relax_type": "npt",
+      "pressure_GPa": 0.0,
+      "initial_volume_A3": 40.02575175,
+      "final_volume_A3": 40.8720523797289,
+      "measured_pressure_GPa": 0.014216011390090008,
+      "fixed_vacuum": false,
+      "DOS_integral": 5.997901207921,
+      "minimum_band_THz": -1.595779396169546e-07,
+      "cpu_affinity": [
+        8,
+        9
+      ],
+      "device": "cuda",
+      "GPU": "2",
+      "zip_crc_ok": true
+    },
+    "Si_2GPa": {
+      "state": "DONE",
+      "seconds": 10.16,
+      "dimension": "3d",
+      "relax_type": "npt",
+      "pressure_GPa": 2.0,
+      "initial_volume_A3": 40.02575175,
+      "final_volume_A3": 39.991577709004375,
+      "measured_pressure_GPa": 1.992958863576254,
+      "fixed_vacuum": false,
+      "DOS_integral": 5.998236611022,
+      "minimum_band_THz": -2.517416671918769e-07,
+      "cpu_affinity": [
+        10,
+        11
+      ],
+      "device": "cuda",
+      "GPU": "3",
+      "zip_crc_ok": true
+    },
+    "Si_no_relax_P1": {
+      "state": "DONE",
+      "seconds": 10.41,
+      "dimension": "3d",
+      "relax_type": "none",
+      "pressure_GPa": 0.0,
+      "initial_volume_A3": 40.02575175,
+      "final_volume_A3": 40.02575175,
+      "measured_pressure_GPa": 1.9112251202265422,
+      "fixed_vacuum": true,
+      "DOS_integral": 5.9981677503699995,
+      "minimum_band_THz": -1.84717951642833e-07,
+      "cpu_affinity": [
+        10,
+        11
+      ],
+      "device": "cuda",
+      "GPU": "3",
+      "zip_crc_ok": true
+    },
+    "graphene_nvt": {
+      "state": "DONE",
+      "seconds": 8.95,
+      "dimension": "2d",
+      "relax_type": "nvt",
+      "pressure_GPa": 0.0,
+      "initial_volume_A3": 104.8167866708382,
+      "final_volume_A3": 104.8167866708382,
+      "measured_pressure_GPa": 0.49953051408131915,
+      "fixed_vacuum": true,
+      "DOS_integral": 5.999999999968,
+      "minimum_band_THz": -0.2775090314546346,
+      "cpu_affinity": [
+        10,
+        11
+      ],
+      "device": "cuda",
+      "GPU": "3",
+      "zip_crc_ok": true
+    },
+    "graphene_slab_npt": {
+      "state": "DONE",
+      "seconds": 10.92,
+      "dimension": "2d",
+      "relax_type": "npt",
+      "pressure_GPa": 0.0,
+      "initial_volume_A3": 104.8167866708382,
+      "final_volume_A3": 105.55603023054668,
+      "measured_pressure_GPa": 0.0034652436152100563,
+      "fixed_vacuum": true,
+      "DOS_integral": 5.999999999949999,
+      "minimum_band_THz": -9.208654099585863e-08,
+      "cpu_affinity": [
+        8,
+        9
+      ],
+      "device": "cuda",
+      "GPU": "2",
+      "zip_crc_ok": true
+    }
+  },
+  "verified_skip_done_jobs": 5,
+  "explicit_resume_one_missing_force": {
+    "restored": 1,
+    "kept_untouched": 11
+  },
+  "deadline_2_seconds": {
+    "exit_code": 124,
+    "worker_gone": true
+  },
+  "no_atom_gate_preflight_atoms": 128,
+  "supervisor_death_worker_stopped": true,
+  "web_parity": {
+    "website_3d_no_relax_force_constant_max_difference_eV_A2": 0.00010903437034492924,
+    "relative_force_constant_error": 8.712167616002694e-06,
+    "corrected_force_max_difference_eV_A": 2.0423904061317444e-06,
+    "sample_frequency_max_difference_THz": 0.00020761888611176005,
+    "repeated_website_force_constant_difference_eV_A2": 0.0,
+    "website_2d_path_max_errors": {
+      "hex": 5.551115123125783e-17,
+      "square": 5.551115123125783e-17,
+      "rectangle": 5.551115123125783e-17,
+      "oblique": 5.551115123125783e-17
+    },
+    "stock_phonopy_used": true
+  },
+  "workflow_sha256": "fc73bb99a6d35921d52cde5767e5daf4f874c3950311e69ddde3917ae9c3b2e1",
+  "scope": "Functional/numerical verification, not a benchmark accuracy study",
+  "environment": "Isolated venv reusing existing dependencies; separately installed vendored MatterSim and stock Phonopy wheels"
+}
