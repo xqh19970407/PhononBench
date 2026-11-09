@@ -1,0 +1,10 @@
+{
+  "zip_crc_and_manifest_valid": true,
+  "files_verified": 59,
+  "source_code_commit": "2b4a02faf69c178e38db0e613566ad283d2d737c",
+  "model_materialized_bytes": 91176875,
+  "ran_from_cwd": "/tmp",
+  "unpacked_2d_job": "DONE",
+  "checkpoint_loaded_from_bundle": true,
+  "zip_sha256": "d312fe064d320788f8ccd19815be3c81cfe0dd0eaf6a7a54e4ae7520b7d8ce46"
+}
